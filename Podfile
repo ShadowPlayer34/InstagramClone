@@ -5,6 +5,12 @@ target 'Instagram' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Instagram
+pod 'Appirater'
+pod 'FirebaseAuth'
+pod 'FirebaseDatabase'
+pod 'FirebaseCore'
+pod 'FirebaseCrashlytics'
+pod 'Firebase/AnalyticsWithoutAdIdSupport'
+pod 'Firebase/Storage'
 
 end
