@@ -7,6 +7,7 @@
 
 import UIKit
 import SafariServices
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
@@ -168,15 +169,37 @@ class LoginViewController: UIViewController {
         emailUsernameTextField.resignFirstResponder()
         passwordTextField.resignFirstResponder()
         
-        guard let emailText = emailUsernameTextField.text, !emailText.isEmpty,
-              let passwordText = passwordTextField.text, passwordText.count >= 8 else {
+        guard let emailUsername = emailUsernameTextField.text, !emailUsername.isEmpty,
+              let password = passwordTextField.text, password.count >= 8 else {
                   return
               }
         
+        // login functionality
+        var username: String?
+        var email: String?
+        if emailUsername.contains("@"), emailUsername.contains(".") {
+            email = emailUsername
+        } else {
+            username = emailUsername
+        }
+        AuthManager.shared.loginUser(username: username, email: email, password: password) { success in
+            DispatchQueue.main.async {
+                if success {
+                    self.dismiss(animated: true, completion: nil)
+                } else {
+                    let alert = UIAlertController(title: "Log In Error",
+                                                  message: "We were unable to log you in",
+                                                  preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Dissmis", style: .cancel))
+                    self.present(alert, animated: true, completion: nil)
+                }
+            }
+        }
     }
     @objc private func createAccountButtonTapped() {
         let vc = RegistrationViewController()
-        present(vc, animated: true)
+        vc.title = "Create Account"
+        present(UINavigationController(rootViewController: vc), animated: true)
     }
     @objc private func termsButtonTapped() {
         guard let url = URL(string: "https://help.instagram.com/581066165581870") else { return }
