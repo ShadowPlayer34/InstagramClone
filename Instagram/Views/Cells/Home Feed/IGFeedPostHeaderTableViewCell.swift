@@ -1,5 +1,5 @@
 //
-//  IGFeedPostsTableViewCell.swift
+//  IGFeedPostHeaderTableViewCell.swift
 //  Instagram
 //
 //  Created by Андрей Худик on 17.02.23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class IGFeedPostsTableViewCell: UITableViewCell {
+class IGFeedPostHeaderTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
