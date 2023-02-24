@@ -6,7 +6,44 @@
 //
 
 import FirebaseStorage
+import Foundation
 
 class StorageManager {
     static let shared = StorageManager()
+    private let bucket = Storage.storage().reference()
+    
+    enum IGStorageManageError: Error {
+        case failedToDownload
+    }
+    
+    public func uploadPost(model: UserPost, completion: @escaping (Result<URL, IGStorageManageError>) -> Void) {
+        
+    }
+    
+    public func downloadImage(with reference: String, completion: @escaping (Result<URL, IGStorageManageError>) -> Void) {
+        bucket.child(reference).downloadURL { url, error in
+            guard let url = url, error == nil else {
+                completion(.failure(.failedToDownload))
+                return
+                
+            }
+            completion(.success(url))
+        }
+    }
+}
+
+enum UserPostType {
+    case photo, video
+}
+
+struct UserPost {
+    let postType: UserPostType
+    let thumbnailImage: URL
+    let caption: String?
+    let likeCount: Int
+    let comments: [PostComment]
+}
+
+struct PostComment {
+    
 }
