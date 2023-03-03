@@ -31,19 +31,3 @@ class StorageManager {
         }
     }
 }
-
-enum UserPostType {
-    case photo, video
-}
-
-struct UserPost {
-    let postType: UserPostType
-    let thumbnailImage: URL
-    let caption: String?
-    let likeCount: Int
-    let comments: [PostComment]
-}
-
-struct PostComment {
-    
-}
