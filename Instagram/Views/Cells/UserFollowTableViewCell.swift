@@ -1,13 +1,13 @@
 //
-//  IGFeedPostGeneralTableViewCell.swift
+//  UserFollowTableViewCell.swift
 //  Instagram
 //
-//  Created by Андрей Худик on 17.02.23.
+//  Created by Андрей Худик on 27.02.23.
 //
 
 import UIKit
 
-class IGFeedPostGeneralTableViewCell: UITableViewCell {
+class UserFollowTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

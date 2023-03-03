@@ -1,13 +1,13 @@
 //
-//  IGFeedPostActionsTableViewCell.swift
+//  NotficationFollowEventTableViewCell.swift
 //  Instagram
 //
-//  Created by Андрей Худик on 17.02.23.
+//  Created by Андрей Худик on 1.03.23.
 //
 
 import UIKit
 
-class IGFeedPostActionsTableViewCell: UITableViewCell {
+class NotficationFollowEventTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
