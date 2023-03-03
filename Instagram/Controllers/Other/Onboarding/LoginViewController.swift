@@ -200,7 +200,7 @@ class LoginViewController: UIViewController {
         let vc = RegistrationViewController()
         vc.title = "Create Account"
         present(UINavigationController(rootViewController: vc), animated: true)
-    }
+    } 
     @objc private func termsButtonTapped() {
         guard let url = URL(string: "https://help.instagram.com/581066165581870") else { return }
         let vc = SFSafariViewController(url: url)
