@@ -13,7 +13,7 @@
   </ol>
   <p>This application will appear on your iPhone, but after about 7 days it will be blocked and you will have to reconnect the iPhone and run the project again</p>
 <h2>First Setup</h2>
-<p>The first time you run the application, the login and registration window appears, you should log in to the account if you have already have it in my application or create a new one:</p>
+<p>The first time you run the application, the login and registration window appears, you should log in to the account if you already have it in my application or create a new one:</p>
 <ol>
   <li>Run the application</li>
   <li>Enter your email and password if you already have an account, otherwise tap on registration button</li>
