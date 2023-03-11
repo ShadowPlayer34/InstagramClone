@@ -37,7 +37,7 @@
   <img src = "https://user-images.githubusercontent.com/61494312/224499375-4ce68c54-26a4-4c45-93b3-f34c3948d870.png", width = 212.5px, heigth = 553px, margin-top = 10px>
   </p>
   
-<h3, margin-top = 30px>Light Theme</h3>
+<h3 margin-top = 30px>Light Theme</h3>
 <div>
   <p>
   <img src = "https://user-images.githubusercontent.com/61494312/224496372-99553739-0f55-4818-bc03-90f45b4a2550.png", width = 212.5px, heigth = 553px, margin-rigth = 20px>
