@@ -24,10 +24,19 @@
 <h3>Light Theme</h3>
 <div>
   <p>
-  <img src = "https://user-images.githubusercontent.com/61494312/205857420-98458b98-c1cf-4aaa-8b42-a14253f3d564.png", width = 242.5px, heigth = 583px, margin-rigth = 20px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224496372-99553739-0f55-4818-bc03-90f45b4a2550.png", width = 242.5px, heigth = 583px, margin-rigth = 20px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/205847058-f2e9f0dc-124d-4144-8123-74de69dadcf0.png", width = 242.5px, heigth = 583px, margin-rigth = 20px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224496395-b7dfe2c7-6695-4ca6-aeda-6cd325a11982.png", width = 242.5px, heigth = 583px, margin-rigth = 20px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/205847122-73755df5-3744-4f3e-ba53-451730f3156b.png", width = 242.5px, heigth = 583px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224496526-6f29dc9a-7599-4522-944e-7eeef40f1a54.png", width = 242.5px, heigth = 583px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224496531-f8c707ab-430a-4583-ac72-47f84e2e2b8b.png", width = 242.5px, heigth = 583px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 242.5px, heigth = 583px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224496570-012edad6-f1ab-41f3-a63d-1a21657be5fb.png", width = 242.5px, heigth = 583px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224496579-a517e6ac-db04-4640-a351-1a4ff96b2ee7.png", width = 242.5px, heigth = 583px>
   </p>
-</div>
+
+
