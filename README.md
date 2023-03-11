@@ -21,6 +21,30 @@
 <h2>User Guide</h2>
 <p>After installation and configuration, you can already use the application.<br> When you enter the application, you immediately see the schedule for today, the circled lesson is the next lesson. Orange near the lesson means that this is a lecture, and blue is everything else<br> On the second tab, the schedule for the next day.<br> On the third tab, you can see the schedule for each day.<br> And on the fourth is the application settings, in this tab you can enable background music for the application</p>
 <h2>Pictures</h2>
+<h3>Dark Theme</h3>
+<div>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/61494312/224498664-83e81dea-336f-4b74-a95e-b59fc2ffbc13.png", width = 212.5px, heigth = 553px, margin-rigth = 20px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224498703-c8090cba-67fc-409b-8265-a08b6af3c24e.png", width = 212.5px, heigth = 553px, margin-rigth = 20px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224498758-95da2025-d658-4121-80b6-e3dc96bef0de.png", width = 212.5px, heigth = 553px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 212.5px, heigth = 553px>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224499335-3891bf27-f537-49c8-a85b-d94d55006876.png", width = 212.5px, heigth = 553px>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://user-images.githubusercontent.com/61494312/224499375-4ce68c54-26a4-4c45-93b3-f34c3948d870.png", width = 212.5px, heigth = 553px>
+  </p>
+  
+  
+  
+
+
+  
+  
+  
+  
 <h3>Light Theme</h3>
 <div>
   <p>
