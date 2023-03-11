@@ -30,22 +30,14 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224498758-95da2025-d658-4121-80b6-e3dc96bef0de.png", width = 212.5px, heigth = 553px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 212.5px, heigth = 553px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224500194-06f2946f-5cbc-4ecb-a849-d86321d6cf1d.png", width = 212.5px, heigth = 553px, margin-top = 10px>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224499335-3891bf27-f537-49c8-a85b-d94d55006876.png", width = 212.5px, heigth = 553px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224499335-3891bf27-f537-49c8-a85b-d94d55006876.png", width = 212.5px, heigth = 553px, margin-top = 10px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224499375-4ce68c54-26a4-4c45-93b3-f34c3948d870.png", width = 212.5px, heigth = 553px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224499375-4ce68c54-26a4-4c45-93b3-f34c3948d870.png", width = 212.5px, heigth = 553px, margin-top = 10px>
   </p>
   
-  
-  
-
-
-  
-  
-  
-  
-<h3>Light Theme</h3>
+<h3, margin-top = 30px>Light Theme</h3>
 <div>
   <p>
   <img src = "https://user-images.githubusercontent.com/61494312/224496372-99553739-0f55-4818-bc03-90f45b4a2550.png", width = 212.5px, heigth = 553px, margin-rigth = 20px>
@@ -54,11 +46,11 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496579-a517e6ac-db04-4640-a351-1a4ff96b2ee7.png", width = 212.5px, heigth = 553px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 212.5px, heigth = 553px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 212.5px, heigth = 553px, margin-top = 10px>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224496526-6f29dc9a-7599-4522-944e-7eeef40f1a54.png", width = 212.5px, heigth = 553px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224496526-6f29dc9a-7599-4522-944e-7eeef40f1a54.png", width = 212.5px, heigth = 553px, margin-top = 10px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224496531-f8c707ab-430a-4583-ac72-47f84e2e2b8b.png", width = 212.5px, heigth = 553px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224496531-f8c707ab-430a-4583-ac72-47f84e2e2b8b.png", width = 212.5px, heigth = 553px, margin-top = 10px>
   </p>
 
 
