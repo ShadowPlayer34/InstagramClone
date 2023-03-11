@@ -25,17 +25,17 @@
 <div>
   <p>
   <img src = "https://user-images.githubusercontent.com/61494312/224496372-99553739-0f55-4818-bc03-90f45b4a2550.png", width = 212.5px, heigth = 553px, margin-rigth = 20px>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496395-b7dfe2c7-6695-4ca6-aeda-6cd325a11982.png", width = 212.5px, heigth = 553px, margin-rigth = 20px>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496526-6f29dc9a-7599-4522-944e-7eeef40f1a54.png", width = 212.5px, heigth = 553px>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496531-f8c707ab-430a-4583-ac72-47f84e2e2b8b.png", width = 212.5px, heigth = 553px>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 212.5px, heigth = 553px>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496570-012edad6-f1ab-41f3-a63d-1a21657be5fb.png", width = 212.5px, heigth = 553px>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496579-a517e6ac-db04-4640-a351-1a4ff96b2ee7.png", width = 212.5px, heigth = 553px>
   </p>
 
