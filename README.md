@@ -30,5 +30,3 @@
   <img src = "https://user-images.githubusercontent.com/61494312/205847122-73755df5-3744-4f3e-ba53-451730f3156b.png", width = 242.5px, heigth = 583px>
   </p>
 </div>
-<h2>Licensing</h2>
-<p>Please see the file called LICENSE.</p>
