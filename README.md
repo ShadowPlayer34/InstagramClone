@@ -36,7 +36,6 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224499375-4ce68c54-26a4-4c45-93b3-f34c3948d870.png", width = 212.5px, heigth = 553px, margin-top = 10px>
   </p>
-  
 <h3 padding-top = 30px>Light Theme</h3>
 <div>
   <p>
@@ -46,11 +45,10 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496579-a517e6ac-db04-4640-a351-1a4ff96b2ee7.png", width = 212.5px, heigth = 553px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src = "https://user-images.githubusercontent.com/61494312/224496562-a8b401db-e018-465d-8d5c-18ef3f45b95d.png", width = 212.5px, heigth = 553px, margin-top = 10px>
+  <img src = "https://user-images.githubusercontent.com/61494312/224512290-a4a06390-d41f-4673-bc5c-0543a73e09a6.png", width = 212.5px, heigth = 553px, margin-top = 10px>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496526-6f29dc9a-7599-4522-944e-7eeef40f1a54.png", width = 212.5px, heigth = 553px, margin-top = 10px>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src = "https://user-images.githubusercontent.com/61494312/224496531-f8c707ab-430a-4583-ac72-47f84e2e2b8b.png", width = 212.5px, heigth = 553px, margin-top = 10px>
   </p>
-
 
