@@ -84,6 +84,7 @@ class UserFollowTableViewCell: UITableViewCell {
         self.model = model
         self.nameLabel.text = model.name
         self.usernameLabel.text = model.username
+        self.profileImageView.image = UIImage(named: "avatar")
         switch model.type {
         case .following:
             // show unfollow button
