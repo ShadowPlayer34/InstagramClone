@@ -19,8 +19,8 @@ class NotficationFollowEventTableViewCell: UITableViewCell {
     private let profileImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
-        imageView.backgroundColor = .red
         imageView.layer.masksToBounds = true
+        imageView.backgroundColor = .secondarySystemBackground
         return imageView
     }()
     
@@ -28,7 +28,7 @@ class NotficationFollowEventTableViewCell: UITableViewCell {
         let label = UILabel()
         label.textColor = .label
         label.numberOfLines = 0
-        label.text = "@kanye followed you."
+        label.text = "kanye followed you."
         return label
     }()
     
@@ -91,6 +91,7 @@ class NotficationFollowEventTableViewCell: UITableViewCell {
     
     func configure(with model: UserNotification) {
         self.model = model
+        profileImageView.image = UIImage(named: "avatar") // for test
         switch model.type {
         case .like(_):
            break
@@ -112,6 +113,6 @@ class NotficationFollowEventTableViewCell: UITableViewCell {
             // configure button
         }
         label.text = model.text
-        profileImageView.sd_setImage(with: model.user.profilePhoto)
+//        profileImageView.sd_setImage(with: model.user.profilePhoto)
     }
 }
