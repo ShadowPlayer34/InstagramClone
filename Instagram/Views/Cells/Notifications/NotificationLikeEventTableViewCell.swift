@@ -21,7 +21,7 @@ class NotificationLikeEventTableViewCell: UITableViewCell {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.layer.masksToBounds = true
-        imageView.backgroundColor = .red
+        imageView.backgroundColor = .secondarySystemBackground
         return imageView
     }()
     
@@ -87,6 +87,7 @@ class NotificationLikeEventTableViewCell: UITableViewCell {
 
     func configure(with model: UserNotification) {
         self.model = model
+        profileImageView.image = UIImage(named: "avatar") // for test
         switch model.type {
         case .like(let post):
             let thumbnail = post.thumbnailImage
