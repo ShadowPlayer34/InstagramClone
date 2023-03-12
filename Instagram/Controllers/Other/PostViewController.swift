@@ -59,6 +59,10 @@ class PostViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    private func reportPost() {
+        
+    }
+    
     private func setUpRenderModel() {
         guard let userPostModel = self.model else { return }
         // Header
@@ -71,7 +75,7 @@ class PostViewController: UIViewController {
         var comments = [PostComment]()
         for x in 1...4 {
             comments.append(PostComment(identifier: "123_\(x)",
-                                        username: "@joe\(x)",
+                                        username: "joe\(x)",
                                         text: "Hello",
                                         createdDate: Date(),
                                         likes: []))
@@ -118,16 +122,20 @@ extension PostViewController: UITableViewDelegate, UITableViewDataSource {
         case .comments(let comments):
             let cell = tableView.dequeueReusableCell(withIdentifier: IGFeedPostGeneralTableViewCell.identifier,
                                                      for: indexPath) as! IGFeedPostGeneralTableViewCell
+            cell.configure(with: comments[indexPath.row])
             return cell
             
         case .primaryContent(let post):
             let cell = tableView.dequeueReusableCell(withIdentifier: IGFeedPostsTableViewCell.identifier,
                                                      for: indexPath) as! IGFeedPostsTableViewCell
+            cell.configure(with: post)
             return cell
             
         case .header(let user):
             let cell = tableView.dequeueReusableCell(withIdentifier: IGFeedPostHeaderTableViewCell.identifier,
                                                      for: indexPath) as! IGFeedPostHeaderTableViewCell
+            cell.configure(with: user)
+            cell.delegate = self
             return cell
         }
     }
@@ -142,7 +150,22 @@ extension PostViewController: UITableViewDelegate, UITableViewDataSource {
         case .actions(_): return 60
         case .comments(_): return 50
         case .primaryContent(_): return tableView.width
-        case .header(_): return 70
+        case .header(_): return 55
         }
+    }
+}
+
+extension PostViewController: IGFeedPostHeaderTableViewCellDelegate {
+    func didTapMoreButton() {
+        let actionSheet = UIAlertController(title: "Post Options", message: nil, preferredStyle: .actionSheet)
+        actionSheet.addAction(UIAlertAction(title: "Report", style: .destructive) { [weak self] _ in
+            self?.reportPost()
+        })
+        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        present(actionSheet, animated: true)
+    }
+    
+    func didTapUsernameButton() {
+        
     }
 }
