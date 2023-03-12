@@ -88,11 +88,27 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
-        
+        let user = User(username: "@joe",
+                        bio: "",
+                        name: ("", ""),
+                        profilePhoto: URL(string: "hhtps://www.google.com")!,
+                        birthDate: Date(),
+                        gender: .male,
+                        counts: UserCount(followers: 45, following: 5, posts: 4),
+                        joinDate: Date())
+        let post = UserPost(identifier: "", postType: .photo,
+                            thumbnailImage: URL(string: "https://www.google.com")!,
+                            postURL: URL(string: "https://www.google.com")!,
+                            caption: nil,
+                            likeCount: [],
+                            comments: [],
+                            createdDate: Date(),
+                            taggedUsers: [],
+                            owner: user)
         // get the model and open post controller
 //        let model = userPosts[indexPath.row]
-        let vc = PostViewController(model: nil)
-        vc.title = "Post"
+        let vc = PostViewController(model: post)
+        vc.title = post.postType.rawValue
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
@@ -111,10 +127,18 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
             tabControlHeader.delegate = self
             return tabControlHeader
         }
-        
+        let user = User(username: "joe",
+                        bio: "",
+                        name: ("", ""),
+                        profilePhoto: URL(string: "hhtps://www.google.com")!,
+                        birthDate: Date(),
+                        gender: .male,
+                        counts: UserCount(followers: 45, following: 5, posts: 4),
+                        joinDate: Date())
         let profileHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                      withReuseIdentifier: ProfileInfoHeaderCollectionReusableView.identifier,
                                                                      for: indexPath) as! ProfileInfoHeaderCollectionReusableView
+        profileHeader.configure(with: user)
         profileHeader.delegate = self
         return profileHeader
     }
@@ -140,7 +164,7 @@ extension ProfileViewController: ProfileInfoHeaderCollectionReusableViewDelegate
     func profileHeaderDidTapFollowersButton(_ header: ProfileInfoHeaderCollectionReusableView) {
         var mockData = [UserRelationship]()
         for x in 0..<10 {
-            mockData.append(UserRelationship(name: "Joe Smith", username: "@joe", type: x % 2 == 0 ? .following : .notFollowing))
+            mockData.append(UserRelationship(name: "Joe Smith", username: "joe", type: x % 2 == 0 ? .following : .notFollowing))
         }
         let vc = ListViewController(data: mockData)
         vc.title = "Followers"
@@ -151,7 +175,7 @@ extension ProfileViewController: ProfileInfoHeaderCollectionReusableViewDelegate
     func profileHeaderDidTapFollowingButton(_ header: ProfileInfoHeaderCollectionReusableView) {
         var mockData = [UserRelationship]()
         for x in 0..<10 {
-            mockData.append(UserRelationship(name: "Joe Smith", username: "@joe", type: x % 2 == 0 ? .following : .notFollowing))
+            mockData.append(UserRelationship(name: "Joe Smith", username: "joe", type: x % 2 == 0 ? .following : .notFollowing))
         }
         let vc = ListViewController(data: mockData)
         vc.title = "Following"
